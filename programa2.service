@@ -1,0 +1,11 @@
+[Unit]
+Description = Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/sel/programa2.py
+#ExecStop
+user=sel
+
+[Install]
+WantedBy=multi-user.target

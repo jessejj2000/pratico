@@ -1,0 +1,14 @@
+touch programa2.py
+chmod +x programa2.py
+nano programa2.service
+python3 programa2.py
+sudo cp programa2.service /lib/systemd/system/
+sudo systemct1 start programa2
+sudo systemctl start programa2
+sudo systemctl stop programa2
+sudo systemctl enable programa2
+rebot
+reboot
+git clone https://github.com/jessejj2000/pratico.git
+history -w ~./historicy.txt
+history -w ~/.historicy.txt
